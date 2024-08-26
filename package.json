@@ -19,7 +19,7 @@
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://ahmed7gendy.github.io/elirning-test/",
+"homepage": "https://ahmed7gendy.github.io/elirning-test/"و
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
