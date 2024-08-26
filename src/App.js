@@ -1,23 +1,21 @@
-// src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import LoginPage from './components/LoginPage';
-import AdminPage from './components/AdminPage';
-import CoursesPage from './components/CoursesPage';
-import CourseDetailPage from './components/CourseDetailPage';
-import AddCoursePage from './components/AddCoursePage';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import LoginPage from './pages/LoginPage';
+import AdminPage from './pages/AdminPage';
+import CoursesPage from './pages/CoursesPage';
+import CourseDetailPage from './pages/CourseDetailPage';
+import AddCoursePage from './pages/AddCoursePage';
 
 const App = () => {
   return (
     <Router>
-      <Switch>
-        <Route path="/login" component={LoginPage} />
-        <Route path="/admin" component={AdminPage} />
-        <Route path="/courses" component={CoursesPage} />
-        <Route path="/course/:id" component={CourseDetailPage} />
-        <Route path="/add-course" component={AddCoursePage} />
-        <Route path="/" exact component={LoginPage} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<LoginPage />} />
+        <Route path="/admin" element={<AdminPage />} />
+        <Route path="/courses" element={<CoursesPage />} />
+        <Route path="/course/:id" element={<CourseDetailPage />} />
+        <Route path="/add-course" element={<AddCoursePage />} />
+      </Routes>
     </Router>
   );
 };
