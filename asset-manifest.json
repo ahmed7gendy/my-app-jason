@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/elirning-test/static/css/main.71b61373.css",
+    "main.js": "/elirning-test/static/js/main.3de27fd7.js",
+    "static/js/453.ed3810f9.chunk.js": "/elirning-test/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/elirning-test/index.html",
+    "main.71b61373.css.map": "/elirning-test/static/css/main.71b61373.css.map",
+    "main.3de27fd7.js.map": "/elirning-test/static/js/main.3de27fd7.js.map",
+    "453.ed3810f9.chunk.js.map": "/elirning-test/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71b61373.css",
+    "static/js/main.3de27fd7.js"
+  ]
+}
