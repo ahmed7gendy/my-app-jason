@@ -1,6 +1,9 @@
 // src/components/LoginPage.js
 import React, { useState } from 'react';
 import { auth } from '../firebase';
+import { Link } from 'react-router-dom';
+
+<Link to="/">Login Page</Link>
 
 const LoginPage = () => {
   const [email, setEmail] = useState('');
